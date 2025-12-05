@@ -1,12 +1,12 @@
 package com.example.demo.entity;
 
+import com.example.demo.entity.Aula;
 import jakarta.persistence.*;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
 @Entity
 public class Reserva {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
      // añadir mínimo 3 atributos (ejemplo: fecha, horaInicio, horaFin, aulaId)
@@ -16,7 +16,6 @@ public class Reserva {
     private LocalTime horaFin;
     private Aula aulaId;
 
-   
     // TODO: constructor con parámetros
     public reserva(){}
     public reserva(Long id, LocalDate fecha, LocalTime horaIncio, LocalTime horaFin, Aula aulaId){
