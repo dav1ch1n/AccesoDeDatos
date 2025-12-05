@@ -1,18 +1,18 @@
 # AccesoDeDatos
 
-README — Ejercicio: API REST de Gestión de Aulas y Reservas
+Ejercicio: API REST de Gestión de Aulas y Reservas
 Descripción
 
-Tu tarea es completar una API REST en Spring Boot para gestionar Aulas y Reservas.
+* Tu tarea es completar una API REST en Spring Boot para gestionar Aulas y Reservas.
 El proyecto contiene la estructura básica de entidades, repositorios, servicios y controladores, pero todos los archivos están incompletos.
 
 Debes rellenar el código necesario para que la API funcione correctamente.
 
 Este ejercicio se realiza directamente en tu repositorio GitHub, mediante un fork del proyecto.
 
-Objetivos
+### Objetivos
 
-Comprender y aplicar CRUD completo en Spring Boot.
+- Comprender y aplicar CRUD completo en Spring Boot.
 
 Completar entidades, repositorios, servicios y controladores.
 
@@ -20,26 +20,26 @@ Validar reglas de negocio básicas.
 
 Entregar el proyecto funcionando en tu repositorio GitHub.
 
-Instrucciones de trabajo
+### Instrucciones de trabajo:
 1. Haz un fork de este repositorio
 
 Pulsa el botón Fork en GitHub y trabaja únicamente en tu copia.
 
 2. Completa las entidades
 
-Ejemplo de atributos sugeridos (puedes cambiar los nombres si quieres):
+**Ejemplo de atributos sugeridos (puedes cambiar los nombres si quieres):**
 
-Aula: nombre, capacidad, edificio
+- Aula: nombre, capacidad, edificio
 
-Reserva: fecha, horaInicio, horaFin, aulaId
+- Reserva: fecha, horaInicio, horaFin, aulaId
 
 3. Completa los repositorios
 
-AulaRepository.java
+- AulaRepository.java
 
-ReservaRepository.java
+- ReservaRepository.java
 
-Debes extender correctamente JpaRepository.
+**Debes extender correctamente JpaRepository.**
 
 Añadir métodos personalizados si los necesitas para validaciones.
 
