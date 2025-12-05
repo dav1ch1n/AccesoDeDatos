@@ -4,14 +4,21 @@ import jakarta.persistence.*;
 
 @Entity
 public class Aula {
-
     @Id
-    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
    // añadir mínimo 3 atributos (ejemplo: nombre, capacidad, edificio)
     private Long id;
     private String nombre;
     private int capacidad;
     private String edificio;
+
+    public Aula(){}
+    public Aula(Long id, String nombre, int capacidad, String edificio){
+        this.id=id;
+        this.nombre=nombre;
+        this.capacidad=capacidad;
+        this.edificio=edificio;
+    }
 
     // ahora agregamos los getter y setters
     public Long getID(){
@@ -40,9 +47,5 @@ public class Aula {
     }
     public void setEdificio(String edificio){
         this.edificio=edificio;
-    }
-
-
-
-  
+    }  
 }
