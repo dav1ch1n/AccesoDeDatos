@@ -14,7 +14,7 @@ public class ReservaController {
 
   // Devolver todas las reserva
   // Devolver un reserva 
-  // añadir reserva
+  // añadir reserva -- no se debe repetir
   // modificar reserva
   // borrarreserva
 }
